@@ -6,9 +6,9 @@ A simple Node.js library for local storage without external dependencies, simila
 
 To install, use one of the following commands
 ```
-npm install localStorage
+npm install @david-fernando/nodelocalstorage
 or
-yarn add localStorage
+yarn add @david-fernando/nodelocalstorage
 ```
 
 ## 🚀 Usage
@@ -17,7 +17,7 @@ yarn add localStorage
 
 Since this library uses ES Modules, import it as follows:
 ```javascript
-import { localStorage } from './nodestorage';
+import { localStorage } from '@david-fernando/nodelocalstorage';
 ```
 
 ### Available Methods
@@ -32,7 +32,7 @@ import { localStorage } from './nodestorage';
 
 ### Example Usage
 ```javascript
-import { localStorage } from './nodestorage';
+import { localStorage } from '@david-fernando/nodelocalstorage';
 
 const { setItem, getItem, removeItem, key, clear } = localStorage();
 
