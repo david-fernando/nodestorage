@@ -17,7 +17,7 @@ yarn add @david-fernando/nodelocalstorage
 
 Since this library uses ES Modules, import it as follows:
 ```javascript
-import { localStorage } from '@david-fernando/nodelocalstorage';
+import localStorage from '@david-fernando/nodelocalstorage';
 ```
 
 ### Available Methods
@@ -32,7 +32,7 @@ import { localStorage } from '@david-fernando/nodelocalstorage';
 
 ### Example Usage
 ```javascript
-import { localStorage } from '@david-fernando/nodelocalstorage';
+import localStorage from '@david-fernando/nodelocalstorage';
 
 const { setItem, getItem, removeItem, key, clear, print } = localStorage();
 
