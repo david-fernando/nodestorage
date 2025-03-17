@@ -34,7 +34,7 @@ import { localStorage } from '@david-fernando/nodelocalstorage';
 ```javascript
 import { localStorage } from '@david-fernando/nodelocalstorage';
 
-const { setItem, getItem, removeItem, key, clear } = localStorage();
+const { setItem, getItem, removeItem, key, clear, print } = localStorage();
 
 // Setting items
 setItem('username', 'David');
