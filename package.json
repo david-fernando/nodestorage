@@ -6,8 +6,33 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/david-fernando/nodestorage.git",
+    "directory": "packages/name"
+  },
+  "bugs": {
+    "url": "https://github.com/david-fernando/nodestorage/issues"
+  },
+  "homepage": "https://github.com/david-fernando/nodestorage",
+  "keywords": [
+    "localStorage",
+    "local Storage",
+    "nodeStorage",
+    "Node local storage",
+    "Node localStorage",
+    "storage",
+    "data",
+    "Node",
+    "NodeJS",
+    "armazenamento",
+    "armazenagem",
+    "armazenamento de dados",
+    "JS",
+    "JavaScript",
+    "Javascript"
+  ],
+  "author": "davidfernando",
   "license": "ISC",
   "description": ""
 }
