@@ -1,4 +1,4 @@
-import { writeFileSync, existsSync, readFileSync, unlink } from 'fs';
+const { writeFileSync, existsSync, readFileSync, unlink } = require('fs');
 
 const loadItems = () => {
   if (existsSync('localStorage.json')) {
@@ -56,4 +56,4 @@ const localStorage = () => {
   };
 };
 
-export default localStorage
+module.exports = localStorage
